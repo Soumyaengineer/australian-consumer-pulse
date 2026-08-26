@@ -1,0 +1,31 @@
+# --- Raw ABS extracts: reproducible from the pull script, never committed ---
+raw/*
+!raw/.gitkeep
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Local join layer (DuckDB / SQLite files are rebuildable) ---
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Power BI temp / recovery ---
+*.pbix.tmp
+*~$*.pbix
+
+# --- Tableau local artifacts ---
+*.twbr
+*.twbx.tmp
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
