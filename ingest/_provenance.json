@@ -1,0 +1,38 @@
+{
+  "pulled_at": "2026-08-27T02:46:53+10:00",
+  "api_base_tried": [
+    "https://api.data.abs.gov.au",
+    "https://data.api.abs.gov.au/rest"
+  ],
+  "start_period": "2019-01",
+  "series": {
+    "HSI_M_nominal": {
+      "dataflow": "HSI_M",
+      "version": "1.6.0",
+      "rows": 11340,
+      "url": "https://data.api.abs.gov.au/rest/data/HSI_M/7..CUR.10..M?startPeriod=2019-01",
+      "extra": "MEASURE=7 (household spending $), PRICE_ADJUSTMENT=CUR, TSEST=10 (Original), FREQ=M"
+    },
+    "CPI": {
+      "dataflow": "CPI",
+      "version": "2.0.0",
+      "rows": 252,
+      "url": "https://data.api.abs.gov.au/rest/data/CPI/1.10001.10..M?startPeriod=2019-01",
+      "extra": "MEASURE=1 (index), INDEX=10001 (All groups), TSEST=10, FREQ=M"
+    },
+    "CPI_M": {
+      "dataflow": "CPI_M",
+      "version": "1.2.0",
+      "rows": 81,
+      "url": "https://data.api.abs.gov.au/rest/data/CPI_M/1.10001.10..M?startPeriod=2019-01",
+      "extra": "Legacy Monthly CPI Indicator, All groups (10001), Australia, Original, monthly; extends CPI monthly back to 2019"
+    },
+    "LF": {
+      "dataflow": "LF",
+      "version": "1.0.0",
+      "rows": 1274,
+      "url": "https://data.api.abs.gov.au/rest/data/LF/M12+M13.3.1599.20..M?startPeriod=2019-01",
+      "extra": "MEASURE=M12 (participation) + M13 (unemployment rate), SA, FREQ=M"
+    }
+  }
+}
